@@ -56,12 +56,12 @@ class SDK {
         ?string $cdnUrl = null
     ) {
         if ( ! $apiUrl ) {
-            $apiUrl = 'https://api.empireio.com/graphql';
+            $apiUrl = 'https://api.organic.ly/graphql';
         }
         $this->apiUrl = $apiUrl;
 
         if ( ! $cdnUrl ) {
-            $cdnUrl = 'https://empirecdn.io/assets/';
+            $cdnUrl = 'https://organiccdn.io/assets/';
         }
         $this->cdnUrl = $cdnUrl;
 
